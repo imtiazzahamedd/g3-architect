@@ -1,54 +1,63 @@
 /* work sans font */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* common shared styles */
-*{
+* {
     font-family: "Work Sans", sans-serif;
 
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
 
-background: rgb(255, 144, 14);
-padding: 18px 20px;
-font-size: 1.1rem;
-font-weight: 600px;
-border: none;
-color: rgb(255, 255, 255);
-margin-top: 30px;
-margin-bottom: 30px;
-cursor: pointer;
+    background: rgb(255, 144, 14);
+    padding: 18px 20px;
+    font-size: 1.1rem;
+    font-weight: 600px;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
 
 }
-.tittle{
+
+.tittle {
     color: rgb(19, 19, 19);
     font-size: 4rem;
     font-weight: 700px;
 }
-.description{
+
+.description {
     color: rgb(114, 114, 114);
     font-size: 1rem;
 }
+
 /* heading styles */
 
-header{
+header {
     background: rgba(255, 144, 14, 0.1);
 }
-nav{
+
+nav {
     display: flex;
     margin: 50px 240px;
     justify-content: space-between;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-    
+
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 30px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: rgb(66, 66, 66);
     font-size: 1rem;
@@ -58,7 +67,7 @@ nav a{
 
 
 
-.banner-content{
+.banner-content {
     margin: 0px auto;
     max-width: 800px;
     text-align: center;
@@ -67,96 +76,138 @@ nav a{
 
 
 
-.banner-img{
+.banner-img {
     /* margin: 0px 240px; */
     width: 100%;
 }
 
 /* main styles */
-main{
+main {
     max-width: 1440px;
     margin: 0px auto;
 }
-.team-container{
+
+.team-container {
     display: flex;
     align-items: center;
     margin-top: 35px;
 }
-.team-container-img{
+
+.team-container-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.3rem;
 }
-.team-content{
+
+.team-content {
     padding-right: 70px;
     padding-left: 70px;
 }
-.team-tittle .quick-list{
+
+.team-tittle .quick-list {
     color: rgb(114, 114, 114);
     font-size: 3rem;
     font-weight: 500;
 }
-.team-tittle .of-our{
+
+.team-tittle .of-our {
     color: rgb(19, 19, 19);
     font-size: 3rem;
     font-weight: 700;
 }
-.team-tittle .text-feature{
+
+.team-tittle .text-feature {
     color: rgb(255, 144, 14);
     font-size: 3rem;
     font-weight: 700;
 }
 
+/* features styles */
 
+/* facts styles */
+.facts-cards .card {
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+}
+.facts-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-cards .card .card-states{
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.facts-cards .card .card-tittle{
+    color: rgb(114, 114, 114);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
 
 
 /* header responsive for mobile */
 @media screen and (max-width:576px) {
-    .banner-img{
+    .banner-img {
         width: 100%;
         margin: 3px;
         margin-bottom: 0px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
         margin: 10px;
     }
-    nav li{
+
+    nav li {
         margin-right: 15px;
     }
-    .nav-tittle{
+
+    .nav-tittle {
         font-size: 2rem;
-     
+
     }
-    .btn-primary{
+
+    .btn-primary {
         padding: 14px 17px;
     }
-    .banner-tittle{
+
+    .banner-tittle {
         font-size: 3rem;
         font-weight: 500px;
-      
+
     }
-    .team-container{
+
+    .team-container {
         flex-direction: column-reverse;
-        
+
     }
-    .team-container-img{
+
+    .team-container-img {
         grid-template-columns: 1fr;
-     
+
     }
-  
+
 }
+
 /* header responsive for pad */
 @media screen and (min-width:576px) and (max-width:992px) {
-    
-    nav{
+
+    nav {
         flex-direction: column;
         margin: 25px;
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
     }
-    .team-container{
+
+    .team-container {
         flex-direction: column-reverse;
     }
 }
