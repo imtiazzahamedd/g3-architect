@@ -125,6 +125,11 @@ main {
 /* features styles */
 
 /* facts styles */
+
+.facts .facts-content #fact-tittle{
+    margin-bottom: 5px;
+
+}
 .facts-cards .card {
     box-sizing: border-box;
     border: 1px solid rgb(255, 144, 14);
@@ -135,6 +140,7 @@ main {
 .facts-cards{
     display: flex;
     justify-content: space-around;
+    margin-top: 70px;
 }
 .facts-cards .card .card-states{
     color: rgb(66, 66, 66);
@@ -151,7 +157,7 @@ main {
 }
 
 
-/* header responsive for mobile */
+/*  responsive for mobile */
 @media screen and (max-width:576px) {
     .banner-img {
         width: 100%;
@@ -192,10 +198,15 @@ main {
         grid-template-columns: 1fr;
 
     }
+    .facts-cards{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
 
 }
 
-/* header responsive for pad */
+/*  responsive for landscape */
 @media screen and (min-width:576px) and (max-width:992px) {
 
     nav {
