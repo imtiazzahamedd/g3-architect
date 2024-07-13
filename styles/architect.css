@@ -171,7 +171,7 @@ main {
     color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    width: 342px;
+    width: 300px;
     position: relative;
     bottom: 100px;
     
@@ -318,6 +318,20 @@ footer {
     .footer {
         margin-top: 90px;
     }
+    .features{
+        flex-direction: column;
+    }
+    .features-img img{
+        width: 90%;
+        margin: 0px;
+        margin-left: 40px;
+    }
+    .ten-years-badge{
+        width: 300px;
+        position: static;
+       
+
+    }
 
 }
 
@@ -344,4 +358,8 @@ footer {
     .footer {
         margin-top: 90px;
     }
+    .features{
+        flex-direction: column;
+    }
+    
 }
