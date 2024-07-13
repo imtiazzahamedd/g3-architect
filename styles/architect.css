@@ -20,6 +20,15 @@ margin-bottom: 30px;
 cursor: pointer;
 
 }
+.tittle{
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700px;
+}
+.description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+}
 /* heading styles */
 
 header{
@@ -44,11 +53,7 @@ nav a{
     color: rgb(66, 66, 66);
     font-size: 1rem;
 }
-.nav-tittle{
-    font-size: 3rem;
-    font-weight: 700px;
-    color: rgb(19, 19, 19);
-}
+
 /* banner styles */
 
 
@@ -58,15 +63,10 @@ nav a{
     max-width: 800px;
     text-align: center;
 }
-.banner-tittle{
-    color: rgb(19, 19, 19);
-    font-size: 4rem;
-    font-weight: 700px;
-}
-.banner-description{
-    color: rgb(114, 114, 114);
-    font-size: 1rem;
-}
+
+
+
+
 .banner-img{
     /* margin: 0px 240px; */
     width: 100%;
@@ -106,11 +106,7 @@ main{
     font-size: 3rem;
     font-weight: 700;
 }
-.team-description{
-    color: rgb(114, 114, 114);
-    font-size: 1rem;
-    font-weight: 400;
-}
+
 
 
 
