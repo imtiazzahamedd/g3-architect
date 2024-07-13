@@ -102,10 +102,49 @@ nav a{
     
     nav{
         flex-direction: column;
-        margin: 20px;
+        margin: 25px;
     }
     .banner-img{
         width: 100%;
     }
-    
+   
+}
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.team-container-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.3rem;
+}
+.team-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.team-tittle .quick-list{
+    color: rgb(114, 114, 114);
+    font-size: 3rem;
+    font-weight: 500;
+}
+.team-tittle .of-our{
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.team-tittle .text-feature{
+    color: rgb(255, 144, 14);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.team-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
 }
