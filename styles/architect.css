@@ -126,10 +126,11 @@ main {
 
 /* facts styles */
 
-.facts .facts-content #fact-tittle{
+.facts .facts-content #fact-tittle {
     margin-bottom: 5px;
 
 }
+
 .facts-cards .card {
     box-sizing: border-box;
     border: 1px solid rgb(255, 144, 14);
@@ -137,25 +138,60 @@ main {
     padding: 30px;
     text-align: center;
 }
-.facts-cards{
+
+.facts-cards {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
 }
-.facts-cards .card .card-states{
+
+.facts-cards .card .card-states {
     color: rgb(66, 66, 66);
     font-size: 2.8rem;
     font-weight: 600;
-   margin-top: 10px;
-   margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.facts-cards .card .card-tittle{
+
+.facts-cards .card .card-tittle {
     color: rgb(114, 114, 114);
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 5px;
 }
 
+/* sponsor styles */
+.sponsor #sponsor-tittle {
+    margin-bottom: 5px;
+    margin-top: 150px;
+}
+
+.sponsor-content {
+    text-align: center;
+}
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.footer {
+    margin-top: 150px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    text-align: center;
+}
+.footer #footer-description{
+    padding: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 
 /*  responsive for mobile */
 @media screen and (max-width:576px) {
@@ -198,10 +234,24 @@ main {
         grid-template-columns: 1fr;
 
     }
-    .facts-cards{
+
+    .facts-cards {
         flex-direction: column;
         padding: 10px;
         gap: 10px;
+    }
+
+    .sponsor-img {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .sponsor-img img {
+        width: 100px;
+    }
+    .footer {
+        margin-top: 90px;
     }
 
 }
@@ -220,5 +270,12 @@ main {
 
     .team-container {
         flex-direction: column-reverse;
+    }
+
+    .sponsor-img img {
+        width: 100px;
+    }
+    .footer {
+        margin-top: 90px;
     }
 }
